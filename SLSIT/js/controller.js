@@ -15,6 +15,15 @@ app.controller('aboutCtrl',function($scope){
     })	  
 });
 
+app.controller('employerCtrl',function($scope){
+  var list=[];
+  for (var i=1;i<=10;i++){
+    list.push(i);
+  }
+  $scope.list=list;
+});
+
+
 app.controller('SWCtrl',function($scope){
 	$('#SWTab a[href="#first"]').tab('show');
     $('#SWTab a').click(function (e) {

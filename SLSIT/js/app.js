@@ -9,6 +9,10 @@ app.config(['$routeProvider',function($routeProvider){
 		templateUrl: "partials/software&web.html",
 		controller:"SWCtrl"
 	})
+	.when("/employers",{
+		templateUrl: "partials/employers.html",
+		controller:"employerCtrl"
+	})
 	.when("/contact",{
 		templateUrl: "partials/contact.html",
 		controller:"contactCtrl"

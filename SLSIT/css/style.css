@@ -14,23 +14,28 @@ h5{
 	text-align: center;
 }
 
+#topBar h5 a{
+	color: white;
+}
+
 /* ---------------nav -----------*/
 .navbar-brand{
 	padding:0;
 	margin:0;
 }
-.biglogo img{
-	width: 28%;
+.smalllogo img{
+	width: 57px;
 	transition: width 2s;
 }
-.smalllogo img{
-	width: 20%;
+.biglogo img{
+	width: 70px;
 	transition: width 2s;
-	padding:10px;
+	padding:5px 0 0 20px;
 }
 
 .navbar-default .navbar-nav li a{
 	color:#0b3073;
+	font-size: 12px;
 }
 .navbar-nav li:hover{
 	background-color: #E7E7E7;
@@ -41,6 +46,7 @@ h5{
 
 /* ----------- slider ------------- */
 #themeCarousel{
+
 }
 /* ----------- marquee ------------- */
 .scrollText{
@@ -60,6 +66,41 @@ h5{
 	padding-top: 25px;
 	background-color: #F7F7F7;
 }
+/* ---------------- job seekers -------- */
+#panel2{
+	width: 400px;
+	height: auto;
+}
+
+.search-left {
+	float: left;
+	display: block;
+	margin: 0 10px 0 0;
+	padding: 0 0 5px;
+	width: 97%;
+}
+.widgetTextbox {
+	background-color: #FFFFFF;
+	border: 1px solid #DDDDDD;
+	color: #333333;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 10px;
+	height: 13px;
+	padding: 12px;
+	width: 187px;
+	margin-left: 20px;
+}
+
+.widgetDDBoxS{
+	border: 1px solid #DDDDDD;
+	color: #333333;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 11px;
+	height: 25px;
+	width: 187px;
+
+}
+
 /* ---------------- about us ---- */
 .image-rounded{
 	width: 20%;
@@ -87,7 +128,7 @@ h5{
 }
 
 @media(max-width: 1200px){
-	#topBar{color:blue;}
+	/*#topBar{color:blue;}
 	.navbar-header {
         float: none;
     }
@@ -118,12 +159,12 @@ h5{
     }
     .collapsing {
         overflow: hidden!important;
-    }
+    }*/
 }
 
 
 @media(min-width: 1200px){	
-	.navbar-nav{
+	/*.navbar-nav{
 		margin-left: -150px;
-	}
+	}*/
 }

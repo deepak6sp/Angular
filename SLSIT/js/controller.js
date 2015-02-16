@@ -1,10 +1,10 @@
 app.controller('headerCtrl',function($scope){
 	$(window).on("scroll",function(){
   		if($(window).scrollTop()> 25){
-  			$("#navigation").addClass('navbar-fixed-top smalllogo');
+  			$("#navigation").addClass('navbar-fixed-top biglogo');
   		}
   		if($(window).scrollTop()< 25){
-  			$("#navigation").removeClass('navbar-fixed-top smalllogo');		   
+  			$("#navigation").removeClass('navbar-fixed-top biglogo');		   
   		}
   	});
 });

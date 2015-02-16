@@ -2,7 +2,7 @@ var app = angular.module('consultancyApp',['ngRoute']);
 app.config(['$routeProvider',function($routeProvider){
 	$routeProvider
 	.when("/",{
-		templateUrl: "partials/about.html",
+		templateUrl: "partials/jobseekers.html",
 		controller:"aboutCtrlr"
 	})
 	.when("/SW",{
@@ -13,8 +13,16 @@ app.config(['$routeProvider',function($routeProvider){
 		templateUrl: "partials/employers.html",
 		controller:"employerCtrl"
 	})
+	.when("/jobseekers",{
+		templateUrl: "partials/jobseekers.html",
+		controller:"employerCtrl"
+	})
 	.when("/contact",{
 		templateUrl: "partials/contact.html",
+		controller:"contactCtrl"
+	})
+	.when("/aboutus",{
+		templateUrl: "partials/about.html",
 		controller:"contactCtrl"
 	})
 	.otherwise({
